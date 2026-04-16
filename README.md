@@ -1,2 +1,2 @@
 # Whatsapp-Chatbot-Backend-Simulation
-A Simple Spring Boot REST API simulating Whatsapp chatbot Webhook. It accepts incoming JSON messages, logs them and returns predefined responses such as Hi -> Hello! How can I help you today and Bye -> Goodbye! Have a nice day. 
+I used a simple switch case for predfined replies. To log the incoming messages, I used SLF4J logger which helps the developer see the metadata of the logged message. I also used nanoid to generate unique messageIds for every new incoming message. 
